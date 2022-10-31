@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+  margin-left: 59px;
+}
+
+.ProductList-list {
+  display: flex;
+  overflow-x: scroll;
+  gap: 34px;
+}
+
+.ProductList-header {
+  margin-top: 60px;
+  width: 172px;
+  height: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+}
+
+.item-container {
+  width: 366px;
+  height: 472px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 366px;
+  height: 307px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.image img {
+  height: 100%;
+}
+
+.item-title {
+  width: 253px;
+  height: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.item-info {
+  position: relative;
+  left: 16px;
+  width: 330px;
+  height: 79px;
+
+}
+
+svg {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  color: #FFAC4B;
+}
+
+svg:hover {
+  color: #23a6f0
+}
+
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices {
+  display: flex;
+
+}
+
+.item-old-price {
+  width: 60px;
+  height: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  margin-right: 10px;
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+
+  color: #444444;
+
+}
+
+.item-price {
+  width: fit-content;
+  height: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+
+}
+
+.item-card-btn {
+  width: 328px;
+  height: 43px;
+  border: none;
+  background: #23A6F0;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  top: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.item-card-btn:hover {
+  background: #1c83bf
+}
